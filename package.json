@@ -1,0 +1,15 @@
+{
+  "name": "badapple",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "jimp": "1.2.0",
+    "natsort": "^2.0.3"
+  }
+}
