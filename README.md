@@ -20,4 +20,8 @@ To run:
 bash ./ffmpeg-scripts.bash
 ```
 
-In [MakeCode](https://makecode.microbit.org/)
+In [MakeCode](https://makecode.microbit.org/), create a JavaScript project for each quadrant and paste the corresponding code from the `output/` directory into the editor. You have to press the A button on all 4 micro:bits at the same time for the video to be synchronised.
+
+You may wish to edit the `ffmpeg-scripts.bash` file. On line 4, you can change the time in seconds from 45 to another number.
+
+I was inspired by other people playing Bad Apple on different devices. [People have played Bad Apple on the micro:bit before](https://cirnoslab.me/blog/2023/07/28/bad-apple-on-the-microbit/), and I learned many things from the article linked such as using Base 36 encoding, but this uses 4 micro:bits together to achieve a better picture quality.
